@@ -1,0 +1,18 @@
+mail:
+  debug: true
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: alecos100@gmail.com
+    password: oagy aeki epri bkgz
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  application:
+    name: yandex-mail
+
