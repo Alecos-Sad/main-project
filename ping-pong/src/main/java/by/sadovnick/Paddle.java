@@ -5,7 +5,7 @@ import java.awt.event.KeyEvent;
 
 public class Paddle extends Rectangle {
 
-    private int id;
+    private final int id;
     private int yVelocity;
     int speed = 10;
 
