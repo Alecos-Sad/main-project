@@ -4,9 +4,8 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="C:/Gradle/gradle-8.10.2/gradle-8.10.2" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -19,9 +18,16 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/multi-thread-spring-rest" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/multi-thread-spring-rest" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/yandex-mail" />
-        <option name="gradleHome" value="C:/Gradle/gradle-8.10.2/gradle-8.10.2" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/yandex-mail" />
