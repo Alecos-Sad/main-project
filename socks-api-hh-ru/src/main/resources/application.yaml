@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: socks-api-hh-ru
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SockDB
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: true

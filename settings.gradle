@@ -1,7 +1,9 @@
 rootProject.name = 'main-project'
 include 'port-scanner'
-include 'yandex-mail'
 include 'TODO'
 include 'ping-pong'
 include 'tic-tac-toe'
+include 'patternGOF'
+include 'neuronNet'
+include 'socks-api'
 

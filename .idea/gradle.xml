@@ -4,33 +4,29 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:/Gradle/gradle-8.10.2/gradle-8.10.2" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/TODO" />
+            <option value="$PROJECT_DIR$/neuronNet" />
+            <option value="$PROJECT_DIR$/patternGOF" />
             <option value="$PROJECT_DIR$/ping-pong" />
             <option value="$PROJECT_DIR$/port-scanner" />
+            <option value="$PROJECT_DIR$/socks-api" />
             <option value="$PROJECT_DIR$/tic-tac-toe" />
-            <option value="$PROJECT_DIR$/yandex-mail" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/multi-thread-spring-rest" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/multi-thread-spring-rest" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/yandex-mail" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/socks-api-hh-ru" />
+        <option name="gradleHome" value="C:/Gradle/gradle-8.10.2/gradle-8.10.2" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/yandex-mail" />
+            <option value="$PROJECT_DIR$/socks-api-hh-ru" />
           </set>
         </option>
       </GradleProjectSettings>
