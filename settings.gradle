@@ -5,5 +5,3 @@ include 'ping-pong'
 include 'tic-tac-toe'
 include 'patternGOF'
 include 'neuronNet'
-include 'socks-api'
-

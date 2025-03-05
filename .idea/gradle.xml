@@ -15,7 +15,6 @@
             <option value="$PROJECT_DIR$/patternGOF" />
             <option value="$PROJECT_DIR$/ping-pong" />
             <option value="$PROJECT_DIR$/port-scanner" />
-            <option value="$PROJECT_DIR$/socks-api" />
             <option value="$PROJECT_DIR$/tic-tac-toe" />
           </set>
         </option>
