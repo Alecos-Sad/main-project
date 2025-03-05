@@ -21,6 +21,16 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/redis-java" />
+        <option name="gradleHome" value="C:/Gradle/gradle-8.10.2/gradle-8.10.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/redis-java" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/socks-api-hh-ru" />
         <option name="gradleHome" value="C:/Gradle/gradle-8.10.2/gradle-8.10.2" />
         <option name="modules">

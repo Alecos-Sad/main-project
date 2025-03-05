@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: redis-java
+
+datasource:
+  url: "jdbc:postgresql://localhost:5432/redisDemo"
+  username: "myuser"
+  password: "mypassword"
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: "org.hibernate.dialect.PostgreSQLDialect"
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  cache:
+    type: redis
