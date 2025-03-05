@@ -14,11 +14,11 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="redisDemo@localhost" uuid="8c659f0a-8687-40e3-8aac-f261024c8508">
+    <data-source source="LOCAL" name="redisDemo@45.89.65.77" uuid="8c659f0a-8687-40e3-8aac-f261024c8508">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/redisDemo</jdbc-url>
+      <jdbc-url>jdbc:postgresql://45.89.65.77:5432/redisDemo</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
