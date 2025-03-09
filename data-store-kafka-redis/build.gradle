@@ -1,0 +1,60 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.4.3'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'by.sadovnick'
+version = '0.0.1-SNAPSHOT'
+
+def mapstruct = '1.5.3.Final'
+def lombok = '1.18.26'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    //mapstruct
+    implementation "org.mapstruct:mapstruct:${mapstruct}"
+    implementation "org.mapstruct:mapstruct-processor:${mapstruct}"
+    implementation 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
+
+    //.env put to resources
+    implementation 'me.paulschwarz:spring-dotenv:4.0.0'
+
+    //kafka
+    implementation 'org.springframework.kafka:spring-kafka:3.3.3'
+
+    //lombok
+    implementation "org.projectlombok:lombok:${lombok}"
+
+    annotationProcessor(
+            "org.projectlombok:lombok:${lombok}",
+            "org.mapstruct:mapstruct-processor:${mapstruct}"
+    )
+
+    //jedis для запросов в redis
+    implementation 'redis.clients:jedis:5.2.0'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
