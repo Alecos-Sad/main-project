@@ -21,6 +21,36 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/data-analyser-kafka" />
+        <option name="gradleHome" value="C:/Gradle/gradle-8.10.2/gradle-8.10.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/data-analyser-kafka" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/data-generate-kafka" />
+        <option name="gradleHome" value="C:/Gradle/gradle-8.10.2/gradle-8.10.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/data-generate-kafka" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/data-store-kafka-redis" />
+        <option name="gradleHome" value="C:/Gradle/gradle-8.10.2/gradle-8.10.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/data-store-kafka-redis" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/redis-java" />
         <option name="gradleHome" value="C:/Gradle/gradle-8.10.2/gradle-8.10.2" />
         <option name="modules">

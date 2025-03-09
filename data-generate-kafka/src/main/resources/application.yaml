@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: data-generate-kafka
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS}
+  config:
+    import: optional:file:.env[.properties]
+server:
+  port: 8081
+
